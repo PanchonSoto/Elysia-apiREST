@@ -13,3 +13,16 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+## dev depencencies
+```bash
+bun add -d prisma
+```
+```bash
+bunx prisma init --datasource-provider sqlite
+```
+
+## after create each prisma schema.
+```bash
+bunx prisma migrate dev
+```
